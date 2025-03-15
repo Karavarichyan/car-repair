@@ -23,10 +23,17 @@
 // };
 
 // export default nextConfig;
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  // Удалён блок с images и редиректами
+module.exports = {
+  async redirects() {
+    return [];
+  },
+  async rewrites() {
+    return [];
+  },
+  async headers() {
+    return [];
+  },
+  images: {
+    remotePatterns: []
+  },
 };
-
-export default nextConfig;

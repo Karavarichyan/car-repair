@@ -15,11 +15,11 @@ import type {
 } from "./wordpress.d";
 
 // WordPress Config
-const baseUrl = process.env.WORDPRESS_URL;
+// const baseUrl = process.env.WORDPRESS_URL;
 
-if (!baseUrl) {
-  throw new Error("WORDPRESS_URL environment variable is not defined");
-}
+// if (!baseUrl) {
+//   throw new Error("WORDPRESS_URL environment variable is not defined");
+// }
 
 // Utility type for fetch options
 interface FetchOptions {
