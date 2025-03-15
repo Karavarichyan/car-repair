@@ -1,6 +1,7 @@
 // Craft Imports
 import { Section, Container, Prose } from "@/components/craft";
 import Balancer from "react-wrap-balancer";
+import Image from 'next/image';
 
 // Next.js Imports
 import Link from "next/link";
@@ -93,11 +94,13 @@ const ToDelete = () => {
             </span>
           </span>
         </Link> */}
-        <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
-  <img
+       <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
+  <Image
     className="w-full h-full object-cover rounded-lg"
     src="/mek.jpg"
     alt="Your Image"
+    layout="fill"
+    objectFit="cover"
   />
 </div>
         {/* <Link
@@ -113,10 +116,12 @@ const ToDelete = () => {
           </span>
         </Link> */}
         <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
-  <img
+  <Image
     className="w-full h-full object-cover rounded-lg"
     src="/2.jpg"
     alt="Your Image"
+    layout="fill"
+    objectFit="cover"
   />
 </div>
         {/* <Link
@@ -132,10 +137,12 @@ const ToDelete = () => {
           </span>
         </Link> */}
         <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
-  <img
+  <Image
     className="w-full h-full object-cover rounded-lg"
     src="/3.jpg"
     alt="Your Image"
+    layout="fill"
+    objectFit="cover"
   />
 </div>
         {/* <Link
@@ -150,11 +157,13 @@ const ToDelete = () => {
             </span>
           </span>
         </Link> */}
-        <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
-  <img
+         <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
+  <Image
     className="w-full h-full object-cover rounded-lg"
     src="/4.jpg"
     alt="Your Image"
+    layout="fill"
+    objectFit="cover"
   />
 </div>
         {/* <Link
@@ -170,10 +179,12 @@ const ToDelete = () => {
           </span>
         </Link> */}
         <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
-  <img
+  <Image
     className="w-full h-full object-cover rounded-lg"
     src="/6.jpg"
     alt="Your Image"
+    layout="fill"
+    objectFit="cover"
   />
 </div>
         {/* <a
@@ -188,11 +199,13 @@ const ToDelete = () => {
             </span>
           </span>
         </a> */}
-        <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
-  <img
+         <div className="border h-48 bg-accent/50 rounded-lg p-4 flex flex-col justify-between hover:scale-[1.02] transition-all">
+  <Image
     className="w-full h-full object-cover rounded-lg"
-    src="/mek.jpg"
+    src="/7.jpg"
     alt="Your Image"
+    layout="fill"
+    objectFit="cover"
   />
 </div>
       </div>

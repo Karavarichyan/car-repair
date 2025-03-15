@@ -23,15 +23,15 @@ const font = FontSans({
   variable: "--font-sans",
 });
 
-export const metadata: Metadata = {
-  title: "WordPress & Next.js Starter by 9d8",
-  description:
-    "A starter template for Next.js with WordPress as a headless CMS.",
-  metadataBase: new URL(siteConfig.site_domain),
-  alternates: {
-    canonical: "/",
-  },
-};
+// export const metadata: Metadata = {
+//   title: "WordPress & Next.js Starter by 9d8",
+//   description:
+//     "A starter template for Next.js with WordPress as a headless CMS.",
+//   metadataBase: new URL(siteConfig.site_domain),
+//   alternates: {
+//     canonical: "/",
+//   },
+// };
 
 export default function RootLayout({
   children,
